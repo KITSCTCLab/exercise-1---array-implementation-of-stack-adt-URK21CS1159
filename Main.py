@@ -3,7 +3,7 @@ class Stack:
     def __init__(self, size):
         self.items = []
         self.size = size
-        self.top = -1
+        
 
     def is_empty(self):
         if self.top == -1 :
@@ -13,7 +13,7 @@ class Stack:
 
 
     def is_full(self):
-       if self.top==(self.size-1):
+       if (self.size-1==-1):
           return 1
         else :
           return 0
