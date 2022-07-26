@@ -30,6 +30,8 @@ class Stack:
 
     def status(self):
         # Write code here
+        for x in range(self.top+1):
+          print(self.items[x])
 
 # Do not change the following code
 size, queries = map(int, input().rstrip().split())
