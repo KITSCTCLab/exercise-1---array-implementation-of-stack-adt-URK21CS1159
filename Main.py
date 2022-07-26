@@ -19,8 +19,9 @@ class Stack:
           return 0
 
     def push(self, data):
-        if not self.is_full():
-            # Write code here
+        if not self.is_full()
+            self.top=self.top+1
+            self.item[self.top]=data
 
     def pop(self):
         if not self.is_empty():
