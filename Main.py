@@ -1,7 +1,7 @@
 
 class Stack:
     def __init__(self, size):
-        self.items = []*size
+        self.items = [None]*size
         self.size = size
         self.top = -1
         
@@ -22,7 +22,7 @@ class Stack:
     def push(self, data):
         if not self.is_full()==1:
             self.top=self.top+1
-            self.item[self.top]=data
+            self.items[self.top]=data
 
     def pop(self):
         if not self.is_empty()==1:
