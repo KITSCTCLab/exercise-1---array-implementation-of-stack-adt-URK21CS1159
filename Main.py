@@ -13,13 +13,13 @@ class Stack:
 
 
     def is_full(self):
-       if self.top==(self.size-1)
+       if self.top==(self.size-1):
           return 1
         else 
           return 0
 
     def push(self, data):
-        if not self.is_full()
+        if not self.is_full():
             self.top=self.top+1
             self.item[self.top]=data
 
